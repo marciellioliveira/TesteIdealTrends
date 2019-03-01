@@ -2,7 +2,7 @@
 <html>
 <head>
 	
-	<link rel="stylesheet" type="text/css" href="css/estilom.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	<script type="text/javascript" href="js/menu.js"></script>
 
 	<!-- Nivo Slide -->
@@ -20,9 +20,6 @@
 	<link rel="stylesheet" href="nivo-slider/themes/bar/bar.css" type="text/css" />
 
 	<title></title>
-
-
-
 </head>
 <body>
 

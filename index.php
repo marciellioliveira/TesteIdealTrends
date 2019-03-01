@@ -13,10 +13,12 @@
 	<script type="text/javascript"> 
 		$(window).on('load', function() {			
 			$('#slider1').nivoSlider(); 
+			$('#slider2').nivoSlider(); 
 		}); 
 	</script>
 
 	<!-- Tema Nivo Slide -->
+	<link rel="stylesheet" href="nivo-slider/themes/dark/dark.css" type="text/css" />
 	<link rel="stylesheet" href="nivo-slider/themes/bar/bar.css" type="text/css" />
 
 	<title></title>
@@ -68,6 +70,22 @@
 		</div>
 	</div>
 	<!-- Fim Tema 1 | Bar -->
+	<br>
+	<!-- Tema 2 | Dark -->
+	<div class="slider-wrapper theme-dark" id="sld1"> 
+		<div class="ribbon"></div> 
+		<div id="slider2" class="nivoSlider">     
+			<img src="imagens/slider-inicio/1-slider.png" alt="" title="Primeira imagem do slide" /> 
+			<img src="imagens/slider-inicio/2-slider.png" alt="" title="Segunda imagem do slide" />
+			<img src="imagens/slider-inicio/3-slider.png" alt="" title="Terceita imagem do slide" /> 
+			<img src="imagens/slider-inicio/4-slider.png" alt="" title="#htmlcaption" /> 
+			<img src="imagens/slider-inicio/5-slider.png" alt="" title="#htmlcaption" />
+		</div> 
+		<div id="htmlcaption" class="nivo-html-caption">     
+			Essa é uma legenda com link para outra <a href="#">página</a>. 
+		</div>
+	</div>
+	<!-- Fim Tema 2 | Dark -->
 
 	<div id="sobre">
 		<h1>TESTE DE HTML E CSS</h1>
